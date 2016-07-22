@@ -20,6 +20,7 @@ namespace EmotionPlatzi.Web.Controllers
         {
             var modelo = new Home();
             modelo.WelcomeMessages = "Hola mundo desde el modelo";
+            modelo.MensajeCualquieraProbarGit = "Bienbenido Julio";
             
 
             return View(modelo);
