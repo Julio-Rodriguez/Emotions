@@ -1,0 +1,11 @@
+﻿@model EmotionPlatzi.Web.Models.Home
+
+@{
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+        <h2>@Model.WelcomeMessages</h2>
+        <h3>@Model.FooterMessages</h3>   
+@section alter_scripts{ 
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+}
